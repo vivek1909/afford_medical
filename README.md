@@ -5,7 +5,7 @@
 ## Approach - DFS
 
 1. loop through our grid
-2. if found first letter of the word, run DFS to find different other characters of word
+2. if found first letter of the word, run DFS to find other different characters of word
    1. create temp variable and continue recursion
    2. use recursion to go in all directions, i.e. left, right, bottom, up
    3. if found word, return true
