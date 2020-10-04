@@ -40,11 +40,15 @@ function isExist(board, word) {
   return false;
 }
 
-isExist(
+// let lol = isExist([], "ABCCED");
+
+let lol = isExist(
   [
     ["A", "B", "C", "E"],
     ["S", "F", "C", "S"],
     ["A", "D", "E", "E"],
   ],
-  "ABCCED"
+  "ASA"
 );
+
+console.log(lol);

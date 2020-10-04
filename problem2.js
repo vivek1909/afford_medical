@@ -19,5 +19,7 @@ function validParen(str) {
   return stack.length === 0;
 }
 
-validParen("[]("); // false
-validParen("([]())"); // true
+let ans = validParen(")"); // false
+// validParen("([]())"); // true
+
+console.log(ans);
