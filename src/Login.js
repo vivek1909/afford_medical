@@ -19,7 +19,10 @@ const Login = ({ history }) => {
     }
 
     try {
-      const response = api.post(`/user/${email}/login`, { email, password });
+      const response = await api.post(`/user/${email}/login`, {
+        email,
+        password,
+      });
 
       console.log(response.data);
       //   const userId = response.data.email || false;
